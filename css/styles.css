@@ -148,9 +148,18 @@ html, body {
     cursor: pointer;
 }
 
-.footer .social-network .fab:hover{
-    color: #ffff;
+.footer .social-network .fab#fc:hover{
+    color:#4668b3;
 }
+
+.footer .social-network .fab#tw:hover{
+    color: #339DC5;
+}
+
+.footer .social-network .fab#ig:hover{
+    color: #DD2A7B;
+}
+
 
 a{
     text-decoration: none;
