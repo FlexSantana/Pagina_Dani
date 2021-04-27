@@ -106,6 +106,110 @@ html, body {
     color: #181818;
 }
 
+/* SECTION ABOUT */
+.about-me{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #181818;
+}
+.about-me h1{
+    font-size: 3em;
+    color: #EDCB54;
+    grid-column: 1/3;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.about-me p{
+    margin-top: 40px;
+    font-size: 1.3em;
+    grid-column: 5 / 10;
+    color: #ffff;
+}
+
+.guitar{
+    background-image: url("/img/play\ guitar.jpg");
+    background-size: cover;
+    grid-column: 1/5;
+    margin-top: 40px;
+    width: 450px;
+    height: 550px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+    
+}
+
+/* SECTION BLOG */
+.blog{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #181818;
+}
+.blog h1{
+    font-size: 3em;
+    color: #EDCB54;
+    grid-column: 1/2;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.blog .photo{
+    background-image: url("/img/leo1.jpg");
+    grid-column: 1/4;
+    background-size: cover;
+    margin-top: 40px;
+    width: 350px;
+    height: 550px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+.blog .photo2{
+    background-image: url("/img/leo2.jpg");
+    grid-column: 4/7;
+    background-size: cover;
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 350px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+.blog .photo3{
+    background-image: url("/img/sam.jpg");
+    background-size: cover;
+    grid-column: 7/10;
+    margin-top: 40px;
+    width: 350px;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+.blog p{
+    color: #ffff;
+    font-size: 1.3em;
+    grid-column: 1/10;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/* SECTION CONTACT */
+.contact{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #181818;
+}
+
+.contact h1{
+    font-size: 3em;
+    color: #EDCB54;
+    grid-column: 1/2;
+    text-align: center;
+    margin-top: 25px;
+}
+
 /* SECTION FOOTER */
 
 .footer{
@@ -147,7 +251,6 @@ html, body {
     color: #EDCB54;
     cursor: pointer;
 }
-
 .footer .social-network .fab#fc:hover{
     color:#4668b3;
 }
@@ -160,7 +263,7 @@ html, body {
     color: #DD2A7B;
 }
 
-
 a{
     text-decoration: none;
 }
+
