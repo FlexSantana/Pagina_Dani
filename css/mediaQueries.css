@@ -42,7 +42,53 @@
     .hero h1{
         font-size: 3.5em;
     }
+    /* SECTION  ABOUT */
+    .about-me{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .about-me h1{
+        font-size: 2em;
+        grid-column: 1/3;
+    }
 
+    .about-me p{
+        font-size: 1.3em;
+        grid-column: 1/5;
+        margin-top: 0%;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align:start;
+    }
+    .guitar{
+        display: none;
+    }
+
+    .blog{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .blog h1{
+        font-size: 2em;
+        grid-column: 1/2;
+        margin-left: 17px;
+    }
+    .blog p{
+        font-size: 1.3em;
+        grid-column: 1/5;
+        margin-top: 0%;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align:start;
+    }
+    .blog .photo{
+        display: none;
+    }
+    .blog .photo2{
+        display: none;
+    }
+    .blog .photo3{
+        display: none;
+    }
     /* SECTION FOOTER */
 
     .footer .follow-me{
@@ -52,4 +98,5 @@
     .footer .social-network{
         text-align: center;
     }
+
 }
