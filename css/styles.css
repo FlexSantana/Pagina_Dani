@@ -128,7 +128,7 @@ html, body {
 }
 
 .guitar{
-    background-image: url("/img/play\ guitar.jpg");
+    background-image: url(../img/play\ guitar.jpg);
     background-size: cover;
     grid-column: 1/5;
     margin-top: 40px;
@@ -155,7 +155,7 @@ html, body {
     
 }
 .blog .photo{
-    background-image: url("/img/leo1.jpg");
+    background-image: url(../img/leo1.jpg);
     grid-column: 1/4;
     background-size: cover;
     margin-top: 40px;
@@ -166,7 +166,7 @@ html, body {
     
 }
 .blog .photo2{
-    background-image: url("/img/leo2.jpg");
+    background-image: url(../img/leo2.jpg);
     grid-column: 4/7;
     background-size: cover;
     margin-top: 40px;
@@ -176,7 +176,7 @@ html, body {
     margin-bottom: 20px;
 }
 .blog .photo3{
-    background-image: url("/img/sam.jpg");
+    background-image: url(../img/sam.jpg);
     background-size: cover;
     grid-column: 7/10;
     margin-top: 40px;
